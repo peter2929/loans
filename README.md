@@ -26,9 +26,14 @@ docker compose exec php php bin/console doctrine:migrations:migrate --env=test -
 docker compose exec php php bin/phpunit
 ```
 
-Open the app
+Endpoint
 ```
 http://localhost:${port}
+```
+
+Usage example
+```
+curl -v -X POST http://localhost:8080/clients -H "Content-Type: application/json" -d '{"firstName":"John", "lastName":"Doe", "email":"peter.girgenson@gmail.com", "phoneNumber":"+832048390"}'
 ```
 
 Open API docs 
