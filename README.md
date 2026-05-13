@@ -33,7 +33,7 @@ http://localhost:${port}
 
 Usage example
 ```
-curl -v -X POST http://localhost:8080/clients -H "Content-Type: application/json" -d '{"firstName":"John", "lastName":"Doe", "email":"peter.girgenson@gmail.com", "phoneNumber":"+832048390"}'
+curl -v -X POST http://localhost:8080/clients -H "Content-Type: application/json" -d '{"firstName":"John", "lastName":"Doe", "email":"test.test@gmail.com", "phoneNumber":"+832048390"}'
 ```
 
 Open API docs 
